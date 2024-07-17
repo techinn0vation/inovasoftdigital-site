@@ -1,6 +1,6 @@
 'use client'
 
-import React, { ReactNode } from 'react'
+import React, { ReactNode, useEffect } from 'react'
 
 import { ThemeProvider } from 'styled-components'
 
@@ -10,13 +10,11 @@ import { theme } from '@/themes/themes'
 import { mainFont, secundaryFont } from '@/styles/FontConfig'
 import { GlobalStyle } from '@/styles/global'
 
-
 interface LayoutProps {
   children: ReactNode
 }
 
 export const Layout = ({ children }: LayoutProps) => {
-  console.log()
   return (
     <StyledComponentsRegistry>
       <ThemeProvider theme={theme}>

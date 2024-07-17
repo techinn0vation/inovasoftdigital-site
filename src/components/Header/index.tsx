@@ -1,5 +1,5 @@
 import { Button } from "../Button";
-import { HeaderBrasao, HeaderLogo, HeaderMenu, HeaderMenuContainer, HeaderMenuLink, HeaderTemplate, HeaderText } from "./styles";
+import { HeaderBrasao, HeaderButtons, HeaderLogo, HeaderMenu, HeaderMenuContainer, HeaderMenuLink, HeaderTemplate, HeaderText } from "./styles";
 import logoSVG from '@/assets/svg/Logo.svg'
 import brasaoSVG from '@/assets/svg/brasaoblur.svg'
 
@@ -14,10 +14,10 @@ export function Header() {
           <HeaderMenuLink href={"/home"}>How it works</HeaderMenuLink>
           <HeaderMenuLink href={"/home"}>Services</HeaderMenuLink>
         </HeaderMenu>
-        <div>
+        <HeaderButtons>
           <HeaderMenuLink href={"/home"}>Sign In</HeaderMenuLink>
           <Button size="10rem" text="Sign Up" />
-        </div>
+        </HeaderButtons>
       </HeaderMenuContainer>
       <HeaderBrasao alt="" src={brasaoSVG} />
       <HeaderText>Awesome UI Dark Template for Webflow Agency</HeaderText>
