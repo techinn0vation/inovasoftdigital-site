@@ -1,10 +1,9 @@
 import { Poppins } from 'next/font/google'
 import localFont from 'next/font/local'
-import path from 'path'
 
 export const mainFont = localFont({
   src: [{
-    path: './good-font.ttf',
+    path: '../assets/fonts/good-font.TTF',
     style: "normal"
   }], variable: "--font-good"
 },)
