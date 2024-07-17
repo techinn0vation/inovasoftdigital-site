@@ -5,9 +5,7 @@ export const mainFont = localFont({
   src: [{
     path: './good-font.ttf',
     style: "normal"
-  }],
-  variable: "--font-good",
-  display: "swap"
+  }], variable: "--font-good"
 },)
 
 export const secundaryFont = Poppins({
