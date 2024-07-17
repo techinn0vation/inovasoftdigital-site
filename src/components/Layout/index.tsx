@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components'
 import { Container } from './styles'
 import StyledComponentsRegistry from '@/app/registry'
 import { theme } from '@/themes/themes'
-import { mainFont, secundaryFont } from '@/styles/FontConfig'
+import { mainFont, secundaryFont } from '@/styles/fonts'
 import { GlobalStyle } from '@/styles/global'
 
 interface LayoutProps {
