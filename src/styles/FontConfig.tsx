@@ -3,7 +3,7 @@ import localFont from 'next/font/local'
 
 export const mainFont = localFont({
   src: [{
-    path: '/_next/static/fonts/good-font.TTF',
+    path: './good-font.ttf',
     style: "normal"
   }], variable: "--font-good"
 },)
