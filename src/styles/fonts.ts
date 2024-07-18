@@ -1,4 +1,4 @@
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 
 const mainFont = localFont({
@@ -12,11 +12,11 @@ const mainFont = localFont({
   display: "swap",
 });
 
-const secundaryFont = Poppins({
+const secundaryFont = Inter({
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600", "700"],
-  variable: "--poppins-font",
+  variable: "--inter-font",
 });
 
 export { mainFont, secundaryFont };
