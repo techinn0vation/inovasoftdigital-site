@@ -6,9 +6,12 @@ export const Container = styled.div`
   width: 100vw;
   flex-direction: column;
   padding: 5rem;
+  justify-content: flex-start;
   margin-top: 10rem;
   z-index: 40;
   margin: 0px auto;
+  max-width: 1000px;
+  min-width: 1000px;
 
   @media (max-width: ${theme.screenSize.LG}) {
     padding: 3rem;
@@ -25,8 +28,8 @@ export const TextList = styled.h3`
   font-family: var(--font-good);
   font-size: 5rem;
   color: ${theme.colors.preto};
-  z-index: 20;
   text-align: left;
+  z-index: 20;
   margin-bottom: 7rem;
 
   @media (max-width: ${theme.screenSize.LG}) {
@@ -42,10 +45,10 @@ export const GridList = styled.div`
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
   gap: 5rem;
-  min-width: 1600px;
-  max-width: 1600px;
+  min-width: 1000px;
+  max-width: 1000px;
+  margin: 0px auto;
   margin-bottom: 5rem;
 
   &:nth-child(3) {

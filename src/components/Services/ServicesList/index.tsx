@@ -11,8 +11,8 @@ import bannerecommerce from '@/assets/images/bannerecommerce.png'
 export function ServicesList() {
   return (
     <Container>
-      <TextList>What We Do</TextList>
 
+      <TextList>What We Do</TextList>
       <GridList>
         <ServiceCard className="item1" icon={webDesign} text="From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience." title="Web Design" />
 

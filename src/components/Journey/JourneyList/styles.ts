@@ -9,6 +9,8 @@ export const Container = styled.div`
   z-index: 40;
   margin: 0px auto;
   padding-top: 3rem;
+  margin: 0px auto;
+  max-width: 1000px;
 
   @media (max-width: ${theme.screenSize.LG}) {
     padding: 3rem;
@@ -41,7 +43,7 @@ export const TitleList = styled.h3`
 export const TextList = styled.p`
   font-family: var(--inter-font);
   font-size: 1.4rem;
-  width: 60%;
+  width: 100%;
   color: #808080;
   z-index: 20;
   text-align: center;
@@ -65,8 +67,8 @@ export const GridList = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5rem;
-  min-width: 1600px;
-  max-width: 1600px;
+  min-width: 1000px;
+  max-width: 1000px;
   margin: 0px auto;
   margin-bottom: 5rem;
 
