@@ -65,8 +65,8 @@ export const GridList = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5rem;
-  min-width: 1000px;
-  max-width: 1000px;
+  min-width: 1600px;
+  max-width: 1600px;
   margin: 0px auto;
   margin-bottom: 5rem;
 

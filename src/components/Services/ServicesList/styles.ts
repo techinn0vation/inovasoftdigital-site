@@ -44,8 +44,8 @@ export const GridList = styled.div`
   flex-direction: row;
   justify-content: space-between;
   gap: 5rem;
-  min-width: 1000px;
-  max-width: 1000px;
+  min-width: 1600px;
+  max-width: 1600px;
   margin-bottom: 5rem;
 
   &:nth-child(3) {
