@@ -53,7 +53,7 @@ export const Img = styled(Image)`
   }
 `;
 
-export const Title = styled.h3`
+export const Title = styled.p`
   font-family: var(--font-good);
   font-size: 4.5rem;
   color: ${theme.colors.preto};

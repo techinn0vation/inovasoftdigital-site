@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 `;
 
-export const TitleBold = styled.h3`
+export const TitleBold = styled.p`
   font-family: var(--font-good);
   font-size: 6rem;
   color: ${theme.colors.preto};
@@ -31,7 +31,7 @@ export const TitleBold = styled.h3`
 
   @media (max-width: ${theme.screenSize.XS}) {
     font-size: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 `;
 
@@ -89,7 +89,7 @@ export const ContainerPricing = styled.div`
   @media (max-width: ${theme.screenSize.XS}) {
     font-size: 1.3rem;
     margin-bottom: 7rem;
-    width: 100%;
+    width: 80%;
   }
 `;
 
@@ -205,6 +205,6 @@ export const CardReview = styled.div`
   @media (max-width: ${theme.screenSize.XS}) {
     font-size: 1.3rem;
     margin-bottom: 7rem;
-    width: 100%;
+    width: 80%;
   }
 `;

@@ -23,7 +23,7 @@ export const Container = styled.div`
   }
 `;
 
-export const TitleList = styled.h3`
+export const TitleList = styled.p`
   font-family: var(--font-good);
   font-size: 4.5rem;
   color: ${theme.colors.preto};

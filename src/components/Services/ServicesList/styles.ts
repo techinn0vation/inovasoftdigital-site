@@ -25,7 +25,7 @@ export const Container = styled.div`
   }
 `;
 
-export const TextList = styled.h3`
+export const TextList = styled.p`
   font-family: var(--font-good);
   font-size: 5rem;
   color: ${theme.colors.preto};
