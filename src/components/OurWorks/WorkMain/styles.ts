@@ -14,6 +14,7 @@ export const Container = styled.div`
 
   @media (max-width: ${theme.screenSize.LG}) {
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   @media (max-width: ${theme.screenSize.XS}) {

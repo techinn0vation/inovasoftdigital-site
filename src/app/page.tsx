@@ -3,6 +3,7 @@
 import { Button, Header } from "@/components/ExportComponents/index"
 import { JourneyList } from "@/components/Journey/JourneyList";
 import { OurWorks } from "@/components/OurWorks/WorkMain";
+import { Pricing } from "@/components/Pricing";
 import { ServicesList } from "@/components/Services/ServicesList";
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <ServicesList />
       <JourneyList />
       <OurWorks />
+      <Pricing />
     </>
   );
 }
