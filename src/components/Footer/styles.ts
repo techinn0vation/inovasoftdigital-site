@@ -112,6 +112,7 @@ export const ImgIcons = styled(Image)``;
 export const ImgBackground = styled(Image)`
   position: absolute;
   bottom: 0rem;
+  width: 100%;
 `;
 
 export const InfoContainer = styled.div`
