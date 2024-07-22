@@ -16,6 +16,7 @@ export const Container = styled.div`
   @media (max-width: ${theme.screenSize.LG}) {
     padding: 3rem;
     margin-top: 5rem;
+    min-width: 100%;
   }
 
   @media (max-width: ${theme.screenSize.XS}) {
@@ -75,7 +76,6 @@ export const GridList = styled.div`
     &:nth-child(3) {
       margin-bottom: 0rem;
       justify-content: flex-start;
-      margin-top: 5rem;
       margin-top: -4rem;
     }
 
@@ -92,13 +92,12 @@ export const GridList = styled.div`
     flex-wrap: wrap;
     min-width: 100%;
 
-    gap: 1rem;
+    gap: 2rem;
 
     &:nth-child(3) {
       margin-bottom: 0rem;
       justify-content: space-between;
-      margin-top: 5rem;
-      margin-top: -4rem;
+      margin-top: -3rem;
     }
 
     .item5 {
