@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 import { theme } from "@/themes/themes";
+import Link from "next/link";
 
 export const ContainerSlider = styled.div`
   position: relative;
@@ -62,4 +63,10 @@ export const Img = styled(Image)`
   @media (max-width: ${theme.screenSize.XS}) {
     height: 300px;
   }
+`;
+
+export const ImgLink = styled(Link)`
+  display: flex;
+  justify-content: center;
+  width: 100%;
 `;

@@ -8,12 +8,12 @@ import screen2 from "@/assets/images/ScreenNft.png";
 import screen3 from "@/assets/images/ScreenMaoNaRoda.png";
 import screen4 from "@/assets/images/DrMariaClara.png";
 import screen5 from "@/assets/images/Sky.png";
-import screen6 from "@/assets/images/PoliTec.png";
+import screen6 from "@/assets/images/saudepsi.jpeg";
 import estrelaBackground from '@/assets/images/estrela.png';
 import { useState } from 'react';
 
 export function OurWorks() {
-  const images = [screen1, screen2, screen3, screen4, screen5, screen6];
+  const images = [{ img: screen1, link: "https://nexcent-lee.vercel.app/home" }, { img: screen2, link: "https://nft-lee.vercel.app/home" }, { img: screen3, link: "https://www.mao-na-roda.com/home" }, { img: screen4, link: "https://dramariaclaraaragao.com.br/" }, { img: screen5, link: "https://directsky.site/" }, { img: screen6, link: "https://www.saudepsi.pt/home" }];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
