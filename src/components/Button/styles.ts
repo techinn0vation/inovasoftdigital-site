@@ -1,9 +1,16 @@
 import { theme } from "@/themes/themes";
+import Link from "next/link";
 import styled from "styled-components";
 
-export const Container = styled.button<{ size: string; color?: string }>`
+export const Container = styled(Link)<{ size: string; color?: string }>`
+  display: flex;
   width: ${(props) => props.size};
-  height: 4rem;
+  height: 4.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   background-color: ${(props) =>
     props.color === "black" ? theme.colors.preto : theme.colors.lilas};
   color: ${theme.colors.branco};

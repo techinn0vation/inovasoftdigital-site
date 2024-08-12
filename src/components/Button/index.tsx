@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
 
-export function Button({ text, size, color }: { text: string, size: string, color?: string }) {
+export function Button({ text, size, color, href }: { text: string, size: string, color?: string, href: string }) {
   return (
-    <Container size={size} color={color}>
+    <Container href={href} size={size} color={color}>
       {text}
     </Container>
   )

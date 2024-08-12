@@ -26,13 +26,13 @@ export function OurWorks() {
   };
 
   return (
-    <Container>
+    <Container id='servicos'>
       <EstrelaBackground src={estrelaBackground} alt='' />
       <HeaderWorks>
         <Img onClick={prevSlide} src={arrowLeft} alt='arrow-left' />
         <div>
-          <Title>Check our Work</Title>
-          <Text>Take a look at some of our recent projects to see how we ve helped businesses like yours succeed online.</Text>
+          <Title>Confira nosso trabalho</Title>
+          <Text>Dê uma olhada em alguns dos nossos projetos recentes para ver como ajudamos empresas como a sua a ter sucesso online.</Text>
         </div>
         <Img onClick={nextSlide} src={arrowright} alt='arrow-right' />
       </HeaderWorks>

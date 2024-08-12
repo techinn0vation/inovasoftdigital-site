@@ -8,22 +8,22 @@ export function Form() {
   return (
     <Container>
       <ImgHeader src={molaMenor} alt='' />
-      <Title>Lets Get in Touch</Title>
+      <Title>Vamos entrar em contato</Title>
 
       <ContainerInputs>
         <TextInput>email</TextInput>
-        <Input placeholder="example@email.com" />
+        <Input placeholder="exemplo@email.com" />
 
         <TextInput>Telefone (whatsapp)</TextInput>
         <Input placeholder="(DDD) 90000-0000" />
 
-        <TextInput>name</TextInput>
-        <Input placeholder="example@email.com" />
+        <TextInput>nome</TextInput>
+        <Input placeholder="Escreva seu nome..." />
 
-        <TextInput>message</TextInput>
-        <InputArea placeholder="Write your message..." />
+        <TextInput>mensagem</TextInput>
+        <InputArea placeholder="Escreva sua mensagem..." />
 
-        <Button text='Get in Touch' size='100%' />
+        <Button href="https://wa.me/message/YYUXQPZORC3ZO1" text='Entre em contato' size='100%' />
       </ContainerInputs>
 
       <ImgFooter src={estrelaMenor} alt='' />

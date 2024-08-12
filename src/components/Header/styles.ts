@@ -95,6 +95,10 @@ export const HeaderText = styled.h1`
 `;
 
 export const HeaderButtons = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   z-index: 20;
 
   @media (max-width: ${theme.screenSize.LG}) {

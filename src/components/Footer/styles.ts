@@ -1,5 +1,6 @@
 import { theme } from "@/themes/themes";
 import Image from "next/image";
+import Link from "next/link";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -54,9 +55,8 @@ export const ImgLogo = styled(Image)`
 export const Text = styled.p`
   font-family: var(--inter-font);
   font-size: 1.4rem;
-  width: 60%;
+  width: 100%;
   color: #808080;
-  z-index: 20;
   text-align: left;
 
   @media (max-width: ${theme.screenSize.LG}) {
@@ -67,6 +67,12 @@ export const Text = styled.p`
   @media (max-width: ${theme.screenSize.XS}) {
     width: 100%;
   }
+`;
+
+export const TextLink = styled(Link)`
+  width: 60%;
+  color: #808080;
+  z-index: 20;
 `;
 
 export const DivRow = styled.div`

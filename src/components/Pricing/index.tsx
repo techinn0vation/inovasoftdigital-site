@@ -13,7 +13,7 @@ export function Pricing() {
         <Img objectFit='contain' style={{ width: '15rem', height: '3.5rem' }} src={iconImg} alt='' />
         <div>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <Text style={{ width: "100%", marginBottom: -5 }}><b>5.0</b> Base On <b>145</b> Reviews</Text>
+            <Text style={{ width: "100%", marginBottom: -5 }}><b>5.0</b> com base em <b>145</b> avalições</Text>
           </div>
           <Img objectFit='contain' style={{ width: '9rem', height: '1.5rem', marginTop: 4, marginBottom: -5 }} src={starsImg} alt='' />
         </div>
@@ -21,49 +21,49 @@ export function Pricing() {
       <ContainerPricing>
         <ViewInfo>
           <div>
-            <TitleBold>Princing</TitleBold>
-            <Text style={{ marginTop: '2rem' }}>Take a look at some of our recent projects to see how weve helped businesses like yours succeed online.</Text>
+            <TitleBold>Precos</TitleBold>
+            <Text style={{ marginTop: '2rem' }}>Oferecemos planos flexíveis e competitivos para atender às suas necessidades e orçamento.</Text>
           </div>
 
           <CardMeeting>
-            <Title style={{ marginBottom: '2rem' }}>Lets Schedule a Meeting</Title>
-            <Button text='Schedule Meeting' size='100%' />
+            <Title style={{ marginBottom: '2rem' }}>vamos agendar uma reuniao</Title>
+            <Button href="https://wa.me/message/YYUXQPZORC3ZO1" text='Agendar Reuniao' size='100%' />
           </CardMeeting>
         </ViewInfo>
 
         <CardDetailsService>
-          <Title>Unlimited Services</Title>
-          <Text>Take a look at some of our recent projects to see how weve helped businesses like yours succeed online.</Text>
+          <Title>Servicos ilimitados</Title>
+          <Text>Acesso a uma gama completa de serviços sem restrições, adaptados às suas necessidades.</Text>
           <ViewDetails>
             <ItemDetail>
               <Img src={checkImg} alt='' />
-              <TextDetail>Unlimited requests</TextDetail>
+              <TextDetail>Web Design</TextDetail>
             </ItemDetail>
             <ItemDetail>
               <Img src={checkImg} alt='' />
-              <TextDetail>Unlimited requests</TextDetail>
+              <TextDetail>Desenvolvimento de Software</TextDetail>
             </ItemDetail>
             <ItemDetail>
               <Img src={checkImg} alt='' />
-              <TextDetail>Unlimited requests</TextDetail>
+              <TextDetail>SEO (Otimização para Mecanismos de Busca)</TextDetail>
             </ItemDetail>
             <ItemDetail>
               <Img src={checkImg} alt='' />
-              <TextDetail>Unlimited requests</TextDetail>
+              <TextDetail>Marketing Digital</TextDetail>
             </ItemDetail>
             <ItemDetail>
               <Img src={checkImg} alt='' />
-              <TextDetail>Unlimited requests</TextDetail>
+              <TextDetail>Consultoria Digital</TextDetail>
             </ItemDetail>
             <ItemDetail>
               <Img src={checkImg} alt='' />
-              <TextDetail>Unlimited requests</TextDetail>
+              <TextDetail>Suporte e Manutenção</TextDetail>
             </ItemDetail>
           </ViewDetails>
 
           <ButtonPrice>
-            <TitleBold>$3,250 {' '}</TitleBold>
-            <Text style={{ marginLeft: 10 }}>{' '} /mo</Text>
+            <TitleBold>R$1,250 {' '}</TitleBold>
+            <Text style={{ marginLeft: 10 }}>{' '} /mês</Text>
             <Img src={arrowRightCircleImg} alt='' />
           </ButtonPrice>
         </CardDetailsService>

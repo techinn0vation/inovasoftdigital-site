@@ -9,19 +9,19 @@ export function Header() {
       <HeaderMenuContainer>
         <HeaderLogo alt="" src={logoSVG} />
         <HeaderMenu>
-          <HeaderMenuLink href={"/home"} selected>Home</HeaderMenuLink>
-          <HeaderMenuLink href={"/home"}>About</HeaderMenuLink>
-          <HeaderMenuLink href={"/home"}>How it works</HeaderMenuLink>
-          <HeaderMenuLink href={"/home"}>Services</HeaderMenuLink>
+          <HeaderMenuLink href={"/"} selected>Home</HeaderMenuLink>
+          <HeaderMenuLink href={"/#sobre"}>Sobre</HeaderMenuLink>
+          <HeaderMenuLink href={"/#comofunciona"}>Como funciona</HeaderMenuLink>
+          <HeaderMenuLink href={"/#servicos"}>Servicos</HeaderMenuLink>
         </HeaderMenu>
         <HeaderButtons>
-          <HeaderMenuLink href={"/home"}>Sign In</HeaderMenuLink>
-          <Button size="10rem" text="Sign Up" />
+          <HeaderMenuLink href={"/"}>entrar</HeaderMenuLink>
+          <Button href="" size="12rem" text="inscrever-se" />
         </HeaderButtons>
       </HeaderMenuContainer>
       <HeaderBrasao alt="" src={brasaoSVG} />
-      <HeaderText>Awesome UI Dark Template for Webflow Agency</HeaderText>
-      <Button size="15rem" text="Get in Touch" color="black" />
+      <HeaderText>Transforme ideias em solucoes digitais poderosas com a InovaSoft Digital.</HeaderText>
+      <Button href="https://wa.me/message/YYUXQPZORC3ZO1" size="15rem" text="entre em contato" color="black" />
     </HeaderTemplate>
   )
 }
