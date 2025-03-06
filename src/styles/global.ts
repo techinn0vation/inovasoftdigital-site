@@ -23,5 +23,4 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-tap-highlight-color: transparent;
     /* overflow-x: hidden; */
   } 
-
 `;

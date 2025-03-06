@@ -15,8 +15,8 @@ export function Header() {
           <HeaderMenuLink href={"/#servicos"}>Servicos</HeaderMenuLink>
         </HeaderMenu>
         <HeaderButtons>
-          <HeaderMenuLink href={"/"}>entrar</HeaderMenuLink>
-          <Button href="" size="12rem" text="inscrever-se" />
+          <HeaderMenuLink href={"https://wa.me/message/YYUXQPZORC3ZO1"} target='_blank'>entrar</HeaderMenuLink>
+          <Button href="https://wa.me/message/YYUXQPZORC3ZO1" size="12rem" text="inscrever-se" />
         </HeaderButtons>
       </HeaderMenuContainer>
       <HeaderBrasao alt="" src={brasaoSVG} />

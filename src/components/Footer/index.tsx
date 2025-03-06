@@ -45,11 +45,11 @@ export function Footer() {
             <Link href="https://www.instagram.com/t3ch.innovation/" target='_blank'>
               <ImgIcons src={instagramIcon} alt='https://www.instagram.com/t3ch.innovation/' />
             </Link>
-            <ImgIcons src={linkedinIcon} alt='' />
+            {/* <ImgIcons src={linkedinIcon} alt='' /> */}
             <Link href="https://wa.me/message/YYUXQPZORC3ZO1" target='_blank'>
               <ImgIcons src={whatsappIcon} alt='https://wa.me/message/YYUXQPZORC3ZO1' />
             </Link>
-            <ImgIcons src={networkIcon} alt='' />
+            {/* <ImgIcons src={networkIcon} alt='' /> */}
           </DivRow>
         </DivColunm>
       </InfoContainer>

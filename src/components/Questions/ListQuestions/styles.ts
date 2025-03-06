@@ -46,7 +46,7 @@ export const HeaderCardQuestion = styled.div`
 
 export const Title = styled.p<{ expand?: boolean }>`
   font-family: var(--font-good);
-  font-size: 2em;
+  font-size: 1.6rem;
   color: ${theme.colors.preto};
   text-align: left;
   z-index: 20;
@@ -66,4 +66,5 @@ export const Img = styled(Image)``;
 export const Answer = styled.p`
   font-family: var(--inter-font);
   color: ${theme.colors.text};
+  font-size: 1.2rem;
 `;

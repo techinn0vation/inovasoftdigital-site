@@ -30,7 +30,7 @@ export const HeaderMenuLink = styled(Link)<{ selected?: boolean }>`
 
   font-family: var(--font-good);
   font-weight: ${(props) => (props.selected ? "bold" : "normal")};
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-right: 5rem;
   text-decoration: none;
   z-index: 50;
@@ -40,7 +40,7 @@ export const HeaderMenuLink = styled(Link)<{ selected?: boolean }>`
   }
 
   @media (max-width: ${theme.screenSize.LG}) {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-right: 3rem;
   }
 `;
@@ -76,17 +76,20 @@ export const HeaderBrasao = styled(Image)`
 
 export const HeaderText = styled.h1`
   font-family: var(--font-good);
-  font-size: 8rem;
+  font-size: 5rem;
   color: ${theme.colors.preto};
+  font-weight: bold;
   z-index: 20;
   margin-top: 10rem;
   text-align: center;
   width: 60%;
   margin-bottom: 7rem;
+  line-height: 6rem;
 
   @media (max-width: ${theme.screenSize.LG}) {
-    font-size: 5rem;
-    width: 100%;
+    font-size: 2.4rem;
+    width: 90%;
+    line-height: normal;
   }
 
   @media (max-width: ${theme.screenSize.XS}) {

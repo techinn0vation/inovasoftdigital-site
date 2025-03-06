@@ -9,12 +9,12 @@ export const Container = styled.div`
   align-items: center;
   width: 100vw;
   height: 40vh;
-  margin-top: -2rem;
+  margin-top: 2rem;
 
   position: relative;
 
   @media (max-width: ${theme.screenSize.LG}) {
-    margin-top: -10rem;
+    margin-top: -2rem;
     height: 65vh;
   }
 

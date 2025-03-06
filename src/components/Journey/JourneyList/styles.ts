@@ -25,14 +25,18 @@ export const Container = styled.div`
 
 export const TitleList = styled.p`
   font-family: var(--font-good);
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   color: ${theme.colors.preto};
   z-index: 20;
   text-align: center;
   margin-bottom: 1rem;
+  line-height: 5rem;
 
   @media (max-width: ${theme.screenSize.LG}) {
     margin-bottom: 2rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   @media (max-width: ${theme.screenSize.XS}) {

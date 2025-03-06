@@ -13,7 +13,7 @@ export function Pricing() {
         <Img objectFit='contain' style={{ width: '15rem', height: '3.5rem' }} src={iconImg} alt='' />
         <div>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <Text style={{ width: "100%", marginBottom: -5 }}><b>5.0</b> com base em <b>145</b> avalições</Text>
+            <Text style={{ width: "100%", marginBottom: -5 }}><b>5.0</b> com base em <b>664</b> avalições</Text>
           </div>
           <Img objectFit='contain' style={{ width: '9rem', height: '1.5rem', marginTop: 4, marginBottom: -5 }} src={starsImg} alt='' />
         </div>

@@ -46,7 +46,7 @@ export const ImgHeader = styled(Image)`
 
 export const Title = styled.p`
   font-family: var(--font-good);
-  font-size: 8rem;
+  font-size: 5rem;
   color: ${theme.colors.preto};
   text-align: left;
   z-index: 20;

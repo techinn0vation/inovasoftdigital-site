@@ -17,7 +17,7 @@ export const Container = styled(Link)<{ size: string; color?: string }>`
   border-radius: 0.5rem;
 
   font-family: var(--font-good);
-  font-size: 2.4rem;
+  font-size: 1.5rem;
 
   z-index: 20;
 `;

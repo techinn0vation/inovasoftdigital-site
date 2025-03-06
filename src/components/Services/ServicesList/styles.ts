@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 5rem;
   justify-content: flex-start;
-  margin-top: 10rem;
+  margin-top: 12rem;
   z-index: 40;
   margin: 0px auto;
   max-width: 1000px;
@@ -27,11 +27,11 @@ export const Container = styled.div`
 
 export const TextList = styled.p`
   font-family: var(--font-good);
-  font-size: 5rem;
+  font-size: 4rem;
   color: ${theme.colors.preto};
   text-align: left;
   z-index: 20;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 
   @media (max-width: ${theme.screenSize.LG}) {
     margin-bottom: 4rem;
@@ -59,10 +59,6 @@ export const GridList = styled.div`
     margin-top: -23rem;
   }
 
-  .item5 {
-    width: 47rem;
-  }
-
   .item4 {
     height: 41rem;
     right: 5rem;
@@ -77,10 +73,6 @@ export const GridList = styled.div`
       margin-bottom: 0rem;
       justify-content: flex-start;
       margin-top: -4rem;
-    }
-
-    .item5 {
-      width: 16rem;
     }
 
     .item4 {

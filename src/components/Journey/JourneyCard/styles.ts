@@ -7,7 +7,7 @@ export const Card = styled.div`
   border-radius: 1rem;
   padding: 2rem;
   width: 20.8rem;
-  height: 18rem;
+  height: 21rem;
 
   &:nth-child(6) {
     justify-content: left;
@@ -15,13 +15,13 @@ export const Card = styled.div`
 
   @media (max-width: ${theme.screenSize.LG}) {
     padding: 1.5rem;
-    width: 16rem;
+    width: 100%;
     height: 18rem;
   }
 
   @media (max-width: ${theme.screenSize.XS}) {
     padding: 1.5rem;
-    width: 14rem;
+    width: 100%;
     height: 18rem;
   }
 `;
@@ -42,7 +42,7 @@ export const CardImg = styled(Image)`
 export const CardTitle = styled.h5`
   font-family: var(--font-good);
   color: ${theme.colors.preto};
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   margin: 1rem 0rem;
 
   @media (max-width: ${theme.screenSize.LG}) {
@@ -57,5 +57,13 @@ export const CardTitle = styled.h5`
 export const CardText = styled.p`
   font-family: var(--inter-font);
   color: ${theme.colors.text};
-  font-size: 1rem;
+  font-size: 1.2rem;
+
+  @media (max-width: ${theme.screenSize.LG}) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: ${theme.screenSize.XS}) {
+    font-size: 1.4rem;
+  }
 `;
