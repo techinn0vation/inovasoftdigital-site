@@ -24,7 +24,7 @@ export function ServicesList() {
       </GridList>
 
       <GridList>
-        <ServiceCard className="item5" icon={webDesign} text="Aprimoramos a visibilidade do seu site nos motores de busca, atraindo mais tráfego qualificado e aumentando as conversões." title="Otimizacao SEO" />
+        <ServiceCard className="item5" icon={webDesign} text="Aprimoramos a visibilidade do seu site nos motores de busca, atraindo mais tráfego qualificado e aumentando as conversões." title="Otimização SEO" />
 
         <ServiceCard className="item6" icon={custom} text="Criamos soluções de software sob medida para atender às necessidades específicas do seu negócio." title="Dev. personalizado" />
       </GridList>

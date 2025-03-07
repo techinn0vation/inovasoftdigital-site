@@ -22,6 +22,10 @@ export const HeaderMenuContainer = styled.div`
 
 export const HeaderLogo = styled(Image)`
   width: 20rem;
+
+  @media (max-width: ${theme.screenSize.LG}) {
+    width: 17rem;
+  }
 `;
 
 export const HeaderMenuLink = styled(Link)<{ selected?: boolean }>`
@@ -40,8 +44,8 @@ export const HeaderMenuLink = styled(Link)<{ selected?: boolean }>`
   }
 
   @media (max-width: ${theme.screenSize.LG}) {
-    font-size: 1.2rem;
-    margin-right: 3rem;
+    font-size: 1.3rem;
+    margin-right: 2rem;
   }
 `;
 
@@ -60,6 +64,7 @@ export const HeaderMenu = styled.div`
     position: fixed;
     bottom: 1rem;
     background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem 2rem;
   }
 `;
 

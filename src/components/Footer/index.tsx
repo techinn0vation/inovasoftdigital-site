@@ -37,7 +37,7 @@ export function Footer() {
               <Text style={{ width: "100%", textAlign: "center" }}>Como funciona</Text>
             </TextLink>
             <TextLink href={"/#servicos"}>
-              <Text style={{ width: "100%", textAlign: "center" }}>Servicos</Text>
+              <Text style={{ width: "100%", textAlign: "center" }}>Serviços</Text>
             </TextLink>
           </DivRow>
 

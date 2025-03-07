@@ -21,18 +21,18 @@ export function Pricing() {
       <ContainerPricing>
         <ViewInfo>
           <div>
-            <TitleBold>Precos</TitleBold>
+            <TitleBold>Preços</TitleBold>
             <Text style={{ marginTop: '2rem' }}>Oferecemos planos flexíveis e competitivos para atender às suas necessidades e orçamento.</Text>
           </div>
 
           <CardMeeting>
-            <Title style={{ marginBottom: '2rem' }}>vamos agendar uma reuniao</Title>
+            <Title style={{ marginBottom: '2rem' }}>Vamos agendar uma reuniao</Title>
             <Button href="https://wa.me/message/YYUXQPZORC3ZO1" text='Agendar Reuniao' size='100%' />
           </CardMeeting>
         </ViewInfo>
 
         <CardDetailsService>
-          <Title>Servicos ilimitados</Title>
+          <Title>Serviços ilimitados</Title>
           <Text>Acesso a uma gama completa de serviços sem restrições, adaptados às suas necessidades.</Text>
           <ViewDetails>
             <ItemDetail>

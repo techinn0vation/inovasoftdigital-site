@@ -11,11 +11,11 @@ export function Questions() {
         "Você pode entrar em contato conosco através do formulário de contato em nosso site ou enviando um e-mail para contato@inovasoft.digital. Normalmente respondemos em 24 horas.",
     },
     {
-      title: "Quais servicos voces oferecem?",
+      title: "Quais serviços voces oferecem?",
       answer: `Oferecemos web design, desenvolvimento de software, SEO, marketing digital, design gráfico, e-commerce, consultoria digital, análise de dados, email marketing e suporte técnico.`,
     },
     {
-      title: "Voces fornecem servicos de manutencao de sites?",
+      title: "Voces fornecem serviços de manutenção de sites?",
       answer:
         "Sim, oferecemos serviços de manutenção de sites, incluindo atualizações, correção de erros, segurança e otimização de desempenho.",
     },

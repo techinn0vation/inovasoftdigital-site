@@ -21,7 +21,7 @@ export function JourneyList() {
 
         <JourneyCard icon={cutting} text="Deixe uma impressão duradoura com nosso web design de primeira linha" title="Design Web Inovador" />
 
-        <JourneyCard icon={seo} text="Maestria em SEO: Aumente sua visibilidade online com nossas técnicas especializadas." title="Otimizacaoo de mecanismos de busca" />
+        <JourneyCard icon={seo} text="Maestria em SEO: Aumente sua visibilidade online com nossas técnicas especializadas." title="Otimização de mecanismos de busca" />
 
         <JourneyCard icon={mobile} text="Priorize o mobile com nosso design mobile-first, garantindo uma experiência fluida em todos os dispositivos." title="Abordagem Mobile-First" />
 

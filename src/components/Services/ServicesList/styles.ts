@@ -32,6 +32,7 @@ export const TextList = styled.p`
   text-align: left;
   z-index: 20;
   margin-bottom: 5rem;
+  font-weight: bold;
 
   @media (max-width: ${theme.screenSize.LG}) {
     margin-bottom: 4rem;
@@ -39,6 +40,7 @@ export const TextList = styled.p`
 
   @media (max-width: ${theme.screenSize.XS}) {
     margin-bottom: 3rem;
+    font-size: 3rem;
   }
 `;
 
@@ -90,10 +92,6 @@ export const GridList = styled.div`
       margin-bottom: 0rem;
       justify-content: space-between;
       margin-top: -3rem;
-    }
-
-    .item5 {
-      width: 14rem;
     }
 
     .item4 {

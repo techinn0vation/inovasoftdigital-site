@@ -12,7 +12,7 @@ export function Header() {
           <HeaderMenuLink href={"/"} selected>Home</HeaderMenuLink>
           <HeaderMenuLink href={"/#sobre"}>Sobre</HeaderMenuLink>
           <HeaderMenuLink href={"/#comofunciona"}>Como funciona</HeaderMenuLink>
-          <HeaderMenuLink href={"/#servicos"}>Servicos</HeaderMenuLink>
+          <HeaderMenuLink href={"/#servicos"}>Serviços</HeaderMenuLink>
         </HeaderMenu>
         <HeaderButtons>
           <HeaderMenuLink href={"https://wa.me/message/YYUXQPZORC3ZO1"} target='_blank'>entrar</HeaderMenuLink>

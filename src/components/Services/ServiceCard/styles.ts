@@ -17,7 +17,7 @@ export const Card = styled.div`
 
   @media (max-width: ${theme.screenSize.XS}) {
     padding: 1.5rem;
-    width: 14rem;
+    width: 100%;
     height: 18rem;
   }
 `;

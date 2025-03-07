@@ -49,7 +49,7 @@ export const Title = styled.p`
   }
 
   @media (max-width: ${theme.screenSize.XS}) {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
   }
 `;
