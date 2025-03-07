@@ -20,7 +20,7 @@ export function Header() {
         </HeaderButtons>
       </HeaderMenuContainer>
       <HeaderBrasao alt="" src={brasaoSVG} />
-      <HeaderText>Transforme ideias em solucoes digitais poderosas com a InovaSoft Digital.</HeaderText>
+      <HeaderText>Transforme ideias em soluções digitais poderosas com a InovaSoft Digital.</HeaderText>
       <Button href="https://wa.me/message/YYUXQPZORC3ZO1" size="15rem" text="entre em contato" color="black" />
     </HeaderTemplate>
   )

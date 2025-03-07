@@ -13,7 +13,7 @@ export function Pricing() {
         <Img objectFit='contain' style={{ width: '15rem', height: '3.5rem' }} src={iconImg} alt='' />
         <div>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <Text style={{ width: "100%", marginBottom: -5 }}><b>5.0</b> com base em <b>664</b> avalições</Text>
+            <Text style={{ width: "100%", marginBottom: -5 }}><b>4.5</b> com base em <b>664</b> avalições</Text>
           </div>
           <Img objectFit='contain' style={{ width: '9rem', height: '1.5rem', marginTop: 4, marginBottom: -5 }} src={starsImg} alt='' />
         </div>
@@ -26,7 +26,7 @@ export function Pricing() {
           </div>
 
           <CardMeeting>
-            <Title style={{ marginBottom: '2rem' }}>Vamos agendar uma reuniao</Title>
+            <Title style={{ marginBottom: '2rem' }}>Vamos agendar uma reunião</Title>
             <Button href="https://wa.me/message/YYUXQPZORC3ZO1" text='Agendar Reuniao' size='100%' />
           </CardMeeting>
         </ViewInfo>

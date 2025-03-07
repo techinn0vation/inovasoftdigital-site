@@ -20,7 +20,7 @@ export function ServicesList() {
 
         <ServiceCard className="item3" icon={responsive} text="Desenvolvemos sites que se adaptam perfeitamente a qualquer dispositivo, garantindo uma navegação fluida." title="Design Responsivo" />
 
-        <ServiceCard className="item4" icon={ecommerce} text="Desenvolvemos plataformas de e-commerce completas, otimizadas para vender mais e garantir uma excelente experiência de compra." title="Solucoes de E-commerce:" banner={bannerecommerce} />
+        <ServiceCard className="item4" icon={ecommerce} text="Desenvolvemos plataformas de e-commerce completas, otimizadas para vender mais e garantir uma excelente experiência de compra." title="Soluções de E-commerce:" banner={bannerecommerce} />
       </GridList>
 
       <GridList>

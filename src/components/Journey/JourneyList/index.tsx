@@ -17,7 +17,7 @@ export function JourneyList() {
       <GridList>
         <JourneyCard icon={expertise} text="Nossa equipe traz anos de experiência e expertise para entregar resultados excepcionais." title="Expertise que gera resultados" />
 
-        <JourneyCard icon={solution} text="Entendemos que cada negócio é único. É por isso que nossas soluções são personalizadas." title="Solucoes Empresariais Personalizadas" />
+        <JourneyCard icon={solution} text="Entendemos que cada negócio é único. É por isso que nossas soluções são personalizadas." title="Soluções Empresariais Personalizadas" />
 
         <JourneyCard icon={cutting} text="Deixe uma impressão duradoura com nosso web design de primeira linha" title="Design Web Inovador" />
 
@@ -25,7 +25,7 @@ export function JourneyList() {
 
         <JourneyCard icon={mobile} text="Priorize o mobile com nosso design mobile-first, garantindo uma experiência fluida em todos os dispositivos." title="Abordagem Mobile-First" />
 
-        <JourneyCard icon={strategies} text="Desenvolvemos estratégias de marketing eficazes para maximizar seu alcance e engajamento." title="Estrategias de Marketing" />
+        <JourneyCard icon={strategies} text="Desenvolvemos estratégias de marketing eficazes para maximizar seu alcance e engajamento." title="Estratégias de Marketing" />
       </GridList>
     </Container>
   )
